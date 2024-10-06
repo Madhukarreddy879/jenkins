@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('First Stage') {
             steps{
-                echo "First Stage"
+                echo "why the universe and all these technology"
             }
         }
     }
