@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('First Stage') {
             steps{
-                echo "why the universe and all these technology"
+                sh 'docker images'
             }
         }
     }
