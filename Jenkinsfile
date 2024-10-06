@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('First Stage') {
             steps{
-                sh 'docker run nginx'
+                
                 sh 'docker ps -q'
             }
         }
